@@ -145,7 +145,7 @@ app.get("/user/Freelancer/Dashboard", isLoggedIn, (req, res) => {
     res.render("freelancer")
 })
 
-app.get("/users/Freelancer/jobs",isLoggedIn, (req, res) => {
+app.get("/user/Freelancer/jobs",isLoggedIn, (req, res) => {
     res.render("myjob");
 });
 
